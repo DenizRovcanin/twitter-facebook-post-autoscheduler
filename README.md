@@ -19,7 +19,7 @@ Sharing bot is taken from:
 * Twit (https://github.com/ttezel/twit)
 * FB (https://www.npmjs.com/package/fb)
 
-Autoscheduling logics are maintained by node-cron (https://github.com/kelektiv/node-cron)
+Autoscheduling is maintained by node-cron (https://github.com/kelektiv/node-cron)
 
 Templating language is Embedded Javascript (http://www.embeddedjs.com/)
 
