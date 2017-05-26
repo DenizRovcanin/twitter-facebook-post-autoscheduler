@@ -1,0 +1,41 @@
+{
+  "name": "social_scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.3",
+    "cron": "^1.2.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-generator": "^4.15.0",
+    "express-session": "^1.15.3",
+    "fb": "^2.0.0",
+    "jade": "~1.11.0",
+    "jquery": "^3.2.1",
+    "morgan": "~1.8.1",
+    "passport-twitter": "^1.0.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "serve-favicon": "~2.4.2",
+    "share-dialog": "^0.3.0",
+    "twit": "^2.2.5"
+  },
+  "engines": {
+    "node": "7.10.0"
+  },
+  "description": "Facebook and Twitter Social Scheduler",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Deniz Rovcanin",
+  "license": "MIT",
+  "keywords": [
+    "facebook-social-scheduler",
+    "twitter-social-scheduler"
+  ]
+}

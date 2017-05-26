@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>My Account - <%= user.displayName%></title>
+</head>
+<body>
+<% if (user.provider === "twitter") { %>
+<p>Photo: <img style="border-radius:50%;" src=<%=user.photos[0].value %>></p>
+<%} else {}%>
+<p>ID: <%= user.id %></p>
+<p>Name: <%= user.displayName %></p>
+<p>Go <a href="/">back</a>.</p>
+</body>
+</html>

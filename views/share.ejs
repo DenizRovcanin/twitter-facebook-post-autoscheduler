@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Social Scheduler 1.0.0</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+</head>
+<body>
+<% if (user) {%>
+<div class="col-md-12">
+    <div class="greeting">
+        <p>Hello, <%= user.displayName %>. You just came from <span id="social-provider"><%= user.provider %></span>. Would you like to see your <a href="/account">Account Details</a>?</p>
+        <p>Perhaps you would like to <a href="/logout">Logout</a>? Just in case you were wondering, here is a <a href="/404">404 page</a>.</p>
+    </div>
+    <div class="col-md-10 form-section">
+        <form class="form" name="postForm" onsubmit="return false;" id="post-form">
+            <div class="form-group">
+                <div class="inputs">
+                    <input id="share-input" type="text" placeholder="Please copy url to be shared to social networks" required>
+                    <button type="submit" id="post-share" value="POST" class="btn-default" onclick="postLinks()">POST</button>
+                </div>
+                <div class="inputs">
+                    <input type="checkbox" id="fb" required>
+                    <label for="fb">Facebook</label>
+                    <input type="checkbox" id="tw" required>
+                    <label for="tw">Twitter</label>
+                    <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                    <label for="cmn-toggle-1"></label>
+                    <span>Autoschedule</span>
+                </div>
+            </div>
+        </form>
+        <p id="validate-msg" style="display:none;">Please select at least one of the sharing targets. Thank you!</p>
+    </div>
+</div>
+<%} else {} %>
+<script src="./javascripts/script.js"></script>
+</body>

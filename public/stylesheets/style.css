@@ -1,0 +1,127 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inputs {
+  display:table;
+  margin: 0 auto;
+  width: 664px;
+  margin-bottom: 30px;
+}
+
+#share-input {
+  width: 600px;
+  height: 30px;
+  padding-left: 6px;
+}
+
+#post-share {
+  margin-left: 10px;
+  height: 30px;
+}
+
+label {
+  font-weight: normal !important;
+}
+
+#social-provider {
+  text-transform: capitalize;
+}
+
+#fb {
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+  margin-left: 32px;
+}
+
+#fb:before {
+  font-family: FontAwesome;
+  content: "\f09a";
+  font-size: 30px;
+  position: absolute;
+  right: 28px;
+  top: -10px;
+}
+
+#tw {
+  position: relative;
+  top: 2px;
+  margin-left: 60px;
+  margin-right: 6px;
+}
+
+#tw:before {
+  font-family: FontAwesome;
+  content: "\f099";
+  font-size: 30px;
+  position: absolute;
+  right: 28px;
+  top: -10px;
+}
+
+#cmn-toggle-1 {
+  margin-left: 202px;
+}
+
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.cmn-toggle + label {
+  display: inline;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-round + label {
+  padding: 8px 36px;
+  width: 60px;
+  height: 38px;
+  background-color: #dddddd;
+  border-radius: 60px;
+  margin-left: 192px;
+  margin-right: 14px;
+}
+
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+
+input.cmn-toggle-round + label:after {
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+
+input.cmn-toggle-round:checked + label:before {
+  background-color: #8ce196;
+}
+
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 40px;
+}
