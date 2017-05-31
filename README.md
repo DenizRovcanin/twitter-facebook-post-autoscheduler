@@ -25,10 +25,12 @@ Templating language is Embedded Javascript (http://www.embeddedjs.com/)
 
 Added client-side validation.
 
-## Usage
+## Getting Started
 
 Simply start `npm install`. 
 
-After installing dependencies generate `api_keys` and `access_tokens` for OAuth.
+After installing dependencies generate `api_keys` and `access_tokens` for OAuth (**Twitter** and **Facebook**).
+
+Setup `twitterJobs` and `facebookJobs.js`.
 
 Type `node app` to start the application and navigate to `localhost:3000`.
