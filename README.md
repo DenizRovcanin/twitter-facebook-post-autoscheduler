@@ -31,6 +31,6 @@ Simply start `npm install`.
 
 After installing dependencies generate `api_keys` and `access_tokens` for OAuth (**Twitter** and **Facebook**).
 
-Setup `twitterJobs` and `facebookJobs.js`.
+Setup `twitterJobs.js` and `facebookJobs.js`.
 
 Type `node app` to start the application and navigate to `localhost:3000`.
