@@ -23,6 +23,7 @@ a {
 #post-share {
   margin-left: 10px;
   height: 30px;
+  -moz-margin-start: 0;
 }
 
 label {

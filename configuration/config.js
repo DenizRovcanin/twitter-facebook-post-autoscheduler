@@ -10,7 +10,7 @@ module.exports={
     "twitter_access_secret" :     "tw_access_token_secret",
     "twitter_callback_url"  :     "http://localhost:3000/auth/twitter/callback",
     "twitter_auth_url"      :     "http://localhost:3000/auth/twitter",
-    "logout_url"          	:     "http://localhost:3000/logout",
+    "logout_url"            :     "http://localhost:3000/logout",
     "use_database"          :     "false",
     "host"                  :     "localhost",
     "username"              :     "root",
