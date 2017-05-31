@@ -1,6 +1,6 @@
 {
   "name": "social_scheduler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -37,5 +37,13 @@
   "keywords": [
     "facebook-social-scheduler",
     "twitter-social-scheduler"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenizRovcanin/twitter-facebook-post-autoscheduler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DenizRovcanin/twitter-facebook-post-autoscheduler/issues"
+  },
+  "homepage": "https://github.com/DenizRovcanin/twitter-facebook-post-autoscheduler#readme"
 }
