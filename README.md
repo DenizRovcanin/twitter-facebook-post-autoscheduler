@@ -21,7 +21,7 @@ Sharing bot is taken from:
 
 Autoscheduling is maintained by node-cron (https://github.com/kelektiv/node-cron)
 
-Templating language is Embedded Javascript (http://www.embeddedjs.com/)
+Templating language used: Embedded Javascript (http://www.embeddedjs.com/)
 
 Added client-side validation.
 
