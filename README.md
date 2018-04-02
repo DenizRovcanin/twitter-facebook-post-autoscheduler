@@ -1,6 +1,6 @@
 # Twitter and Facebook Post Autoscheduler
 
-Node & Express based application that comes with two strategies: **Immediate share** and **Autoschedule Share**.
+Node & Express based application that comes with two strategies: **Immediate Share** and **Autoschedule Share**.
 
 ## Overview
 
