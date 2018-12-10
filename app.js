@@ -94,7 +94,6 @@ FB.setAccessToken(config.facebook_access_token); //DEBUG !!! https://developers.
 //Get xhr data
 app.post('/share', function (req, res) {
     var status = req.body;
-    console.log(status);
     //Declare Posting Functions
     var postToTwitter = function() {
         T.post('statuses/update', {status: status.shareValue}, function (err, data, response) {
